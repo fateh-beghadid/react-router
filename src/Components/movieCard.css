@@ -1,0 +1,144 @@
+.movie-card {
+    color: #4c463d;
+    background-color: white;
+}
+.movie-card:hover {
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.search-bar {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 350px;
+}
+.poster img {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    height: 350px;
+}
+.add-movie {
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-button {
+    background-color: #717c7c;
+    width: 100px;
+    height: 100px;
+    font-size: xxx-large;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    color: #e9e9e9;
+}
+.add-button:hover {
+    background-color: #878b8b;
+    border: 5px solid #ccc;
+    font-size: 60px;
+    color: #e9e9e9;
+    cursor: pointer;
+}
+.title h1 {
+    font-size: 20px;
+}
+.search-fild {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.search-fild input {
+    padding: 8px;
+    width: 70%;
+    border-radius: 4px;
+    border: 0;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid {
+    display: grid;
+    box-shadow: 0 0 20px #00000082;
+}
+.description {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 30px;
+}
+.description h2 {
+    grid-column: 1/5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #727c7c;
+    justify-content: center;
+}
+.description h3 {
+    grid-column: 1;
+    margin: 0;
+    color: #727c7c;
+}
+.description h4 {
+    grid-column: 2/5;
+    margin: 0;
+    color: #a6a9a9;
+    font-weight: 500;
+}
+.description h4 div {
+    font-size: larger;
+}
+.poster-descp {
+    grid-row: 2/9;
+    box-shadow: 0 0 10px #00000094;
+}
+.poster-descp img {
+    width: 100%;
+    height: 100%;
+}
+.video-descp {
+    grid-column: 2/4;
+    grid-row: 3/9;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.go-back {
+    grid-row: 1;
+    grid-column: 1/5;
+    display: flex;
+}
+.rating-box {
+    width: 85px;
+    position: relative;
+    background-color: #ffb400;
+    border-radius: 20px;
+    font-size: larger;
+    top: -12px;
+    margin: 0 auto;
+    height: 20px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.title {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-movie-flex {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
